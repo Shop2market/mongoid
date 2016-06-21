@@ -20,9 +20,9 @@ Gem::Specification.new do |s|
   s.add_runtime_dependency("activesupport", ["< 3.0.0"])
   s.add_runtime_dependency("durran-validatable", [">= 2.0.1"])
   s.add_runtime_dependency("will_paginate", ["< 2.9"])
-  s.add_runtime_dependency("mongo", ["~> 1.12.4"])
-  s.add_runtime_dependency("bson", ["~> 1.12.4"])
-  s.add_runtime_dependency("bson_ext", ["~> 1.12.4"])
+  s.add_runtime_dependency("mongo", ["~> 2.2.5"])
+  s.add_runtime_dependency("bson", ["~> 4.0.0"])
+  # s.add_runtime_dependency("bson_ext", ["~> 2.2.5"])
   s.add_development_dependency(%q<rspec>, ["= 1.3.0"])
   s.add_development_dependency(%q<mocha>, ["= 0.9.8"])
 
